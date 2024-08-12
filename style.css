@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-image: url(https://cdn.mos.cms.futurecdn.net/qGQbUvypvuwqKr3bMXszfS-1280-80.jpg.webp);
+  background-size: cover;
+  
+}
+
+.hero .navbar nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.hero .navbar nav ul {
+    color:rgb(58, 6, 58);
+    display: flex;
+    padding: 20px;
+    font-size: medium;   
+}
+
+.hero .navbar nav ul:hover{
+    color: red;
+}
+
+.hero .navbar nav .link a{
+    color: rgb(58, 6, 58);
+    padding: 30px;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1{
+    color:  rgb(58, 6, 58);
+    font-size: 40px;
+    padding: 30px;
+}
+
+.hero .navbar a{
+    color:  rgb(58, 6, 58);
+    font-size: 30px;
+    text-decoration: none;
+    gap: 10px;
+    padding: 10px;
+}
+
+.hero .navbar .home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom:30px;
+}
+
+.hero .navbar .home .click{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.hero .navbar .home .click a:hover{
+    color:green;
+}
+
+.hero .content h1{
+    font-size: 130px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hero .content p{
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+}
+
+.content .card{
+    display: flex;
+    text-align: center;
+    grid-template-rows: auto auto auto;
+    margin: 50px;
+    padding: 20px;
+    padding-bottom: 50px;
+} 
+
+.content .card h1{
+    color: black;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content .card p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.about .aboutus{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+
+}
+.about .aboutus img{
+    height: 500px;
+    width: 800px;
+    padding: 60px;
+}
+
+.about .aboutus .content2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .aboutus .content2 h2{
+    color: orangered;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.about .aboutus .content2 p{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
