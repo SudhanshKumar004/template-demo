@@ -71,14 +71,14 @@ label {
   display: none;
 }
 
-.hero .navbar .home .click {
+.hero .navbar .home ul {
   display: flex;
   gap: 10px;
   list-style: none;
   /* margin-bottom: 50px; */
 }
 
-.hero .navbar .home .click a:hover {
+.hero .navbar .home ul li a:hover {
   color: green;
 }
 
@@ -558,12 +558,13 @@ label {
   border-radius: 6px;
   background-color: orangered;
   padding: 20px;
-  width: 100%;
+  width: 22%;
 }
 
 .foot .container3 .subscribe .btn2:hover {
+  border: 2px orangered solid;
   background-color: rgb(49, 47, 47);
-  color: orange;
+  color: orangered;
 }
 
 .foot .container3 .subscribe .follow {
@@ -607,6 +608,9 @@ label {
   color: gray;
 }
 
+.btn2{
+  display: block;
+}
 /* Teblet view */
 @media screen and (max-width: 768px) {
   label {
@@ -615,7 +619,7 @@ label {
     color: rgb(58, 6, 58);
   }
 
-  .hero .navbar .home .click {
+  .hero .navbar .home ul {
     flex-direction: column;
     width: 100%;
     position: absolute;
@@ -624,12 +628,13 @@ label {
     text-align: center;
     display: none;
   }
-  .hero .navbar .home .click li a {
-    color: gold;
+  .hero .navbar .home ul li a {
+    color:orangered
   }
-  #clicked:checked ~ .hero .navbar .home .click {
+  
+  #clicked:checked ~ .hero .navbar .home ul{
     display: block;
-  }
+   }
 
   .hero .content h1 {
     padding-top: 195px;
@@ -645,7 +650,7 @@ label {
 
   .about .aboutus img {
     /* padding-top: 80px; */
-    width: 80%;
+    width: 90%;
 
   }
 
@@ -702,9 +707,6 @@ label {
     grid-template-columns:1fr 1fr;
   }
 
-  .contact .form-top {
-
-  }
 
   .foot .container3 .subscribe .btn2 {
   border: 1px solid orangered;
@@ -713,6 +715,13 @@ label {
   padding: 20px;
   width: 30%;
 }
+.team .card2 .image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 }
 
 /* Mobile View */
@@ -722,9 +731,26 @@ label {
     padding: 0px;
   }
 
+  .hero .navbar a {
+  color: rgb(58, 6, 58);
+  font-size: 20px;
+  text-decoration: none;
+  gap: 5px;
+  padding: 5px;
+  }
+
+  .hero .navbar nav .link a {
+  color: rgb(58, 6, 58);
+  padding: 5px;
+  gap: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  }
+
   .hero .navbar nav ul{
-    font-size: smaller;
+    font-size: 2px;
     padding: 10px 10px;
+    gap: 0px;
   }
 
   .about .aboutus img{
@@ -794,4 +820,43 @@ label {
   font-size: 22px;
   color: gray;
 }
+.about .aboutus .content2{
+  width: 100%;
+}
+.team .card2 .image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+.hero .content h1 {
+  padding-top: 90px;
+  font-size: 50px;
+}
+
+.hero .content p{
+  font-size: 18px;
+}
+
+h1{
+  font-size: 30px;
+}
+
+.hero .navbar .home ul {
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 140px;
+    font-size:px;
+    left: 0;
+    text-align: center;
+    display: none;
+    
+  }
+
+  .hero .navbar .home ul li a {
+    color:orangered;
+    font-size: 25px;
+  }
 }
