@@ -320,7 +320,7 @@ label {
   font-size: 28px;
   background-color: orangered;
   text-decoration: none;
-  padding: 25px 90px;
+  padding: 25px 70px;
   color: white;
   list-style: none;
   margin-top: 30px;
@@ -554,11 +554,11 @@ label {
 }
 
 .foot .container3 .subscribe .btn2 {
-  border: 1px solid: orangered;
+  border: 1px solid orangered;
   border-radius: 6px;
   background-color: orangered;
   padding: 20px;
-  width: 22%;
+  width: 23%;
 }
 
 .foot .container3 .subscribe .btn2:hover {
@@ -611,6 +611,9 @@ label {
 .btn2{
   display: block;
 }
+
+
+
 /* Teblet view */
 @media screen and (max-width: 768px) {
   label {
@@ -780,11 +783,6 @@ label {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-size: 18px;
 }
-
-  .contentt .card img{
-      width: 
-
-    }
 
   .about .aboutus .content2 p {
     font-size: 22px;
