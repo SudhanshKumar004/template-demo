@@ -728,7 +728,7 @@ label {
 }
 
 /* Mobile View */
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 430px) {
 
   .hero .navbar nav .link a {
     padding: 0px;
